@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Form Background -->
+    <rect x="0" y="0" width="800" height="600" fill="#f5f5f5"/>
+    
+    <!-- Form Title -->
+    <rect x="0" y="0" width="800" height="40" fill="#1e90ff"/>
+    <text x="20" y="25" font-family="Arial" font-size="16" fill="white">Sales Transaction - Invoice No: INV00123</text>
+    
+    <!-- Customer Details Section -->
+    <rect x="20" y="50" width="760" height="100" fill="white" stroke="#cccccc"/>
+    <text x="30" y="70" font-family="Arial" font-size="14" fill="#333">Customer Details</text>
+    <text x="30" y="95" font-family="Arial" font-size="12">Name: John Doe</text>
+    <text x="250" y="95" font-family="Arial" font-size="12">Phone: 9876543210</text>
+    <text x="450" y="95" font-family="Arial" font-size="12">Date: 05-02-2025</text>
+    
+    <!-- Product Selection -->
+    <rect x="20" y="160" width="760" height="80" fill="white" stroke="#cccccc"/>
+    <text x="30" y="180" font-family="Arial" font-size="12">Product: LED Bulb 9W</text>
+    <text x="250" y="180" font-family="Arial" font-size="12">Price: ₹199.00</text>
+    <text x="450" y="180" font-family="Arial" font-size="12">Qty: 5</text>
+    <text x="600" y="180" font-family="Arial" font-size="12">Amount: ₹995.00</text>
+    
+    <!-- Items Grid -->
+    <rect x="20" y="250" width="760" height="200" fill="white" stroke="#cccccc"/>
+    <!-- Grid Header -->
+    <rect x="20" y="250" width="760" height="30" fill="#e0e0e0" stroke="#cccccc"/>
+    <text x="30" y="270" font-family="Arial" font-size="12" fill="#333">Sr.</text>
+    <text x="80" y="270" font-family="Arial" font-size="12" fill="#333">Product</text>
+    <text x="300" y="270" font-family="Arial" font-size="12" fill="#333">Price</text>
+    <text x="400" y="270" font-family="Arial" font-size="12" fill="#333">Qty</text>
+    <text x="500" y="270" font-family="Arial" font-size="12" fill="#333">GST</text>
+    <text x="650" y="270" font-family="Arial" font-size="12" fill="#333">Amount</text>
+    
+    <!-- Sample Data Rows -->
+    <text x="30" y="300" font-family="Arial" font-size="12">1</text>
+    <text x="80" y="300" font-family="Arial" font-size="12">LED Bulb 9W</text>
+    <text x="300" y="300" font-family="Arial" font-size="12">199.00</text>
+    <text x="400" y="300" font-family="Arial" font-size="12">5</text>
+    <text x="500" y="300" font-family="Arial" font-size="12">18%</text>
+    <text x="650" y="300" font-family="Arial" font-size="12">995.00</text>
+    
+    <text x="30" y="330" font-family="Arial" font-size="12">2</text>
+    <text x="80" y="330" font-family="Arial" font-size="12">Fan Regulator</text>
+    <text x="300" y="330" font-family="Arial" font-size="12">350.00</text>
+    <text x="400" y="330" font-family="Arial" font-size="12">2</text>
+    <text x="500" y="330" font-family="Arial" font-size="12">18%</text>
+    <text x="650" y="330" font-family="Arial" font-size="12">700.00</text>
+    
+    <!-- Totals Section -->
+    <rect x="20" y="460" width="760" height="120" fill="white" stroke="#cccccc"/>
+    <text x="500" y="485" font-family="Arial" font-size="12">Sub Total: ₹1,695.00</text>
+    <text x="500" y="510" font-family="Arial" font-size="12">GST (18%): ₹305.10</text>
+    <text x="500" y="535" font-family="Arial" font-size="12" font-weight="bold">Total Amount: ₹2,000.10</text>
+</svg>
