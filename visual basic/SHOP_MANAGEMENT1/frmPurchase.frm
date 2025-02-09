@@ -21,6 +21,53 @@ Begin VB.Form frmPurchase
    ScaleHeight     =   10935
    ScaleWidth      =   20250
    WindowState     =   2  'Maximized
+   Begin VB.CommandButton Command2 
+      Caption         =   "print_invoice"
+      Height          =   855
+      Left            =   12480
+      TabIndex        =   21
+      Top             =   7800
+      Width           =   2175
+   End
+   Begin VB.CommandButton Command1 
+      Caption         =   "exit"
+      Height          =   855
+      Left            =   10440
+      TabIndex        =   20
+      Top             =   7800
+      Width           =   1455
+   End
+   Begin VB.PictureBox Picture1 
+      Height          =   1695
+      Left            =   120
+      ScaleHeight     =   1635
+      ScaleWidth      =   8835
+      TabIndex        =   18
+      Top             =   240
+      Width           =   8895
+      Begin VB.Image Image1 
+         Height          =   1920
+         Left            =   120
+         Picture         =   "frmPurchase.frx":0000
+         Top             =   0
+         Width           =   1920
+      End
+      Begin VB.Line Line1 
+         X1              =   3000
+         X2              =   7680
+         Y1              =   720
+         Y2              =   720
+      End
+      Begin VB.Label Label8 
+         Alignment       =   2  'Center
+         Caption         =   "Purchase New Product"
+         Height          =   855
+         Left            =   2520
+         TabIndex        =   19
+         Top             =   240
+         Width           =   5415
+      End
+   End
    Begin MSAdodcLib.Adodc Adodc1 
       Height          =   375
       Left            =   1440
@@ -69,8 +116,8 @@ Begin VB.Form frmPurchase
    End
    Begin VB.CommandButton cmdClear 
       Caption         =   "Clear"
-      Height          =   735
-      Left            =   7200
+      Height          =   855
+      Left            =   8280
       TabIndex        =   17
       Top             =   7800
       Width           =   1695
@@ -141,14 +188,14 @@ Begin VB.Form frmPurchase
       Width           =   2775
    End
    Begin MSDataGridLib.DataGrid DataGrid1 
-      Bindings        =   "frmPurchase.frx":0000
-      Height          =   6255
+      Bindings        =   "frmPurchase.frx":1084A
+      Height          =   4215
       Left            =   -120
       TabIndex        =   0
-      Top             =   240
+      Top             =   2280
       Width           =   9495
       _ExtentX        =   16748
-      _ExtentY        =   11033
+      _ExtentY        =   7435
       _Version        =   393216
       HeadLines       =   1
       RowHeight       =   18
@@ -268,6 +315,10 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
+
+Private Sub Command1_Click()
+A
+End Sub
 
 Private Sub Form_Load()
     ' Initialize the ADODC control

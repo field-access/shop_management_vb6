@@ -6,8 +6,8 @@ Begin VB.Form frmReports
    ClientTop       =   465
    ClientWidth     =   4560
    LinkTopic       =   "Form2"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10935
+   ScaleWidth      =   20250
    StartUpPosition =   3  'Windows Default
 End
 Attribute VB_Name = "frmReports"
