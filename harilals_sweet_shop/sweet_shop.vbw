@@ -1,0 +1,12 @@
+sale_details = 66, 147, 510, 377, C, 444, 460, 888, 690, C
+purchase_frm = 130, 130, 810, 612, C, 26, 26, 706, 508, C
+Product_management = 52, 52, 617, 534, C, -6, 33, 660, 515, C
+Raw_material_management = 0, 0, 444, 690, I, 444, 0, 888, 690, C
+Customer_management = 104, 104, 669, 586, C, 78, 78, 643, 560, C
+Supplier_management = 52, 52, 732, 534, I, 52, 52, 732, 534, C
+MDIForm1 = 26, 26, 591, 508, C, 0, 0, 444, 690, C
+login_frm = 0, 0, 680, 482, C, 156, 156, 836, 638, C
+Module1 = 0, 0, 565, 482, C
+DataReport1 = 26, 26, 706, 508, C, -753, 74, 613, 842, C
+DataEnvironment1 = 0, 0, 680, 482, C, 130, 130, 360, 820, C
+DataReport2 = 0, 0, 0, 0, C, 0, 0, 1366, 768, C

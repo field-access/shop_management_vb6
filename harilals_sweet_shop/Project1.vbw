@@ -1,0 +1,11 @@
+Billing_frm = 0, 0, 0, 0, C, 26, 26, 640, 508, C
+Sales_frm = 0, 0, 0, 0, C, 52, 52, 188, 534, C
+Stock_monitoring = 0, 0, 0, 0, C, 78, 78, 214, 560, C
+Purchase_frm = 0, 0, 0, 0, C, 104, 104, 240, 586, C
+Product_management = 0, 0, 0, 0, C, 130, 130, 266, 612, C
+Raw_material_management = 0, 0, 0, 0, C, 156, 156, 292, 638, C
+Customer_management = 0, 0, 0, 0, C, 182, 182, 318, 664, C
+Supplier_management = 0, 0, 0, 0, C, 208, 208, 344, 690, C
+Employee_management = 0, 0, 0, 0, C, 0, 0, 136, 482, C
+MDIForm1 = 0, 0, 0, 0, C, 26, 26, 640, 508, C
+login_frm = 0, 0, 0, 0, C, 52, 52, 666, 534, C
